@@ -1,0 +1,124 @@
+body,html {
+	background-image: url(http://cs-server.usc.edu:45678/hw/hw8/images/background.png);
+}
+div {
+	border-radius: 6px;
+}
+
+#title {
+	text-align: center;
+	font-weight: bold;
+	font-family: "Arial";
+	font-size: 20px;
+}
+label {
+	font-weight: bold;
+	font-family: "Arial";
+	font-size: 15px;
+}
+.header {
+	font-weight: bold;
+	height: 40px;
+	vertical-align: center;
+}
+.newsformat {
+	font-weight: bold;
+}
+a.news {
+	font-size: 18px;
+}
+.process {
+	margin-top: 40%;
+}
+
+.mystyle{
+	margin: auto;
+	margin-top: 1%;
+	background-color: white;
+	width: 75%;
+	padding: 1.5%;
+	overflow: hidden;
+}
+hr.split {
+	width: 75%;
+	align-self: center; 
+	margin-top: 1%;
+	margin-bottom: 1%;
+	border: none; 
+	border-top: 1px solid #cccccc;
+}
+#red {
+	color: red;
+}
+#but {
+	text-align: right;
+}
+
+#list {
+	background-color: rgb(235,235,235);
+	font-size: 15px;
+}
+#but {
+	align-self: right
+}
+.myslide2.ng-hide {
+  transform: translateX(-100%);
+}
+.myslide2.ng-hide-remove {
+  transition: 0.5s linear all;
+}
+.myslide1.ng-hide {
+  transform: translateX(100%);
+}
+.myslide1.ng-hide-remove {
+  transition: 0.5s linear all;
+}
+
+#border {
+	border-color: red;
+}
+.col-md-3 {
+	padding-top:3px;
+}
+.progress,.alert {
+	margin-top: 50px;
+}
+.special {
+	margin-top: 13px;
+}
+.special2 {
+	margin-top: 72px;
+}
+.special3 {
+	margin-top: 100px;
+}
+@media (max-width: 480px) {
+    .myhide {
+        display: none;
+    }
+    .mystyle{
+		margin: auto;
+		margin-top: 3%;
+		background-color: white;
+		width: 90%;
+		padding: 1.5%;
+		overflow: hidden;
+	}
+	hr.split {
+		width: 90%;
+		align-self: center; 
+		margin-top: 3%;
+		border: none; 
+		border-top: 1px solid #cccccc;
+	}
+	table {
+		font-size: 14px;
+	}
+}
+md-autocomplete md-autocomplete-wrap {
+	height: 36px;
+}
+
+.toRed {
+	border: 2px red solid;
+}

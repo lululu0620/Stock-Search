@@ -1,0 +1,21 @@
+{
+  "name": "my-app",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "angular-route": "^1.6.6",
+    "aws-sdk": "latest",
+    "body-parser": "latest",
+    "cookie-parser": "latest",
+    "ejs": "latest",
+    "express": "latest",
+    "moment": "^2.19.1",
+    "multer": "latest",
+    "request": "latest",
+    "xml2js": "latest",
+    "body-parser": "latest"
+  },
+  "scripts": {
+    "start": "node app"
+  }
+}
