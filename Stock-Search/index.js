@@ -8,7 +8,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:false}));
 
 app.get('/', function (req, res) {
-   res.send('This is the backend of CSCI 571 HW8 created by Lu Xie.');
+   res.send('This is the backend of Stock-Search Web Application created by Lu Xie.');
 })
 
 app.get('/hw8.html', function (req, res) {
